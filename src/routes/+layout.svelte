@@ -112,8 +112,10 @@
       <p>&copy; {new Date().getFullYear()} Jon Kola. All rights reserved.</p>
       <div class="flex gap-4">
         <a href="https://www.linkedin.com/in/jon-kola/" target="_blank" rel="noopener noreferrer" class="hover:text-gold">
-          LinkedIn
+          <i class="fab fa-linkedin"></i> LinkedIn
         </a>
+        <a href="https://www.instagram.com/jonkola_/" target="_blank" rel="noopener noreferrer" class="hover:text-gold">
+          <i class="fab fa-instagram"></i> Instagram
       </div>
     </div>
   </div>

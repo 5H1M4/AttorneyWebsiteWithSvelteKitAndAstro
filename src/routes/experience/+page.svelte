@@ -10,7 +10,7 @@
       <div class="bg-charcoal rounded-lg p-8 hover:shadow-xl transition-shadow">
         <div class="flex flex-col md:flex-row gap-6 items-start">
           <img
-            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=200"
+            src="/konomi_hero_section.jpg"
             alt="Council of Europe"
             class="w-24 h-24 object-cover rounded"
           />

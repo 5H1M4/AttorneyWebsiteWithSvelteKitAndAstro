@@ -1,4 +1,4 @@
-import { SENDGRID_API_KEY, CONTACT_EMAIL } from '$env/static/private';
+import { SENDGRID_API_KEY, CONTACT_EMAIL, PERSONAL_EMAIL } from '$env/static/private';
 import sgMail from '@sendgrid/mail';
 
 export const actions = {
@@ -19,7 +19,7 @@ export const actions = {
 
     try {
       await sgMail.send({
-        to: CONTACT_EMAIL,
+        to: PERSONAL_EMAIL,
         from: CONTACT_EMAIL, // Must be verified sender in SendGrid
         subject: `New Contact Form Submission from ${name}`,
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,

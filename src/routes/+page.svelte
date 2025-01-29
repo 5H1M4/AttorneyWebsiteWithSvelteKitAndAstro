@@ -44,7 +44,8 @@
       <!-- Profile Image -->
       <div class="hidden md:block">
         <img
-          src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1000"
+        
+          src="https://media.licdn.com/dms/image/v2/D4D22AQE38LTjEfu9qA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729598824837?e=1741219200&v=beta&t=8CC3nBubkr_v56AH0TiY86uFjdkPVacd7qNUiQavlkQ"
           alt="Jon Kola"
           class="rounded-lg shadow-2xl object-cover w-full aspect-[3/4] max-w-md mx-auto"
         />
@@ -57,7 +58,7 @@
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div>
           <img
-            src="https://images.unsplash.com/photo-1521791055366-0d553872125f?auto=format&fit=crop&q=80&w=1000"
+            src="https://media.licdn.com/dms/image/v2/D4D22AQGov8qjweqh4g/feedshare-shrink_1280/feedshare-shrink_1280/0/1728134793054?e=1741219200&v=beta&t=_a5aei2zOZ2hl1REoRQkbckZ0SE3-SVegdmdPaSDYkY"
             alt="Jon Kola"
             class="rounded-lg shadow-xl object-cover aspect-[4/3]"
           />
@@ -83,11 +84,18 @@
         {#each Object.entries($json('experience.positions')) as [key, position]}
           <div class="bg-charcoal rounded-lg p-8 hover:shadow-xl transition-shadow">
             <div class="flex flex-col md:flex-row gap-6 items-start">
+            
+              
+
+              
+              
+              <!-- commented and removed the small pictures in the expertise section
               <img
                 src={`https://source.unsplash.com/random/200x200?${key}`}
                 alt={position.org}
                 class="w-24 h-24 object-cover rounded"
-              />
+              />-->
+
               <div>
                 <h3 class="text-xl font-bold text-gold">{position.title}</h3>
                 <p class="text-emerald mb-2">{position.org}</p>

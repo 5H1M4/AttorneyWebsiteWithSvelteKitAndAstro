@@ -8,7 +8,7 @@ export const translations = {
       contact: 'Contact'
     },
     home: {
-      title: 'Jon Kola: Law Student, Youth Delegate, and Social Change Advocate',
+      title: 'Jon Kola:    Law Student, Youth Delegate, and Social Change Advocate',
       subtitle: 'Dedicated to making a positive impact through international law, human rights advocacy, and youth empowerment.',
       cta: {
         primary: 'Learn More',

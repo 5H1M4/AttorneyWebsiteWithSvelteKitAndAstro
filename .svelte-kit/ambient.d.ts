@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const SENDGRID_API_KEY: string;
 	export const CONTACT_EMAIL: string;
+	export const PERSONAL_EMAIL: string;
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
 	export const ChocolateyLastPathUpdate: string;
@@ -150,6 +151,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		SENDGRID_API_KEY: string;
 		CONTACT_EMAIL: string;
+		PERSONAL_EMAIL: string;
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
 		ChocolateyLastPathUpdate: string;
