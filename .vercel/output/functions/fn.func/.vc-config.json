@@ -1,0 +1,6 @@
+{
+	"runtime": "nodejs20.x",
+	"handler": "..\\..\\..\\..\\..\\..\\..\\Users\\User\\Desktop\\Personal Projects\\BEST attorney website astro.js and svelteKit\\project\\.svelte-kit\\vercel-tmp\\index.js",
+	"launcherType": "Nodejs",
+	"experimentalResponseStreaming": true
+}
