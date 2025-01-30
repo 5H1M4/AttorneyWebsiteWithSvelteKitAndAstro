@@ -1,54 +1,65 @@
-# Astro Starter Kit: Basics
 
+## 🌟 Features
+
+- **Fast and optimized**: Astro is designed for speed and performance.
+- **Component-based**: Build your UI using components from various frameworks.
+- **Zero JavaScript by default**: Only ship JavaScript when you need it.
+- **Markdown support**: Write content using Markdown and transform it into HTML.
+- **Static site generation**: Generate static HTML for your pages.
+
+## 📚 Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+- You have installed Node.js version 14.0 or higher.
+- You have a basic understanding of JavaScript and web development.
+
+## 🛠️ Setup
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/User/BEST-attorney-website-astro-svelteKit.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd BEST-attorney-website-astro-svelteKit
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+## 🚀 Usage
+
+To start the development server, run:
 ```sh
-npm create astro@latest -- --template basics
+npm run dev
 ```
+Open your browser and navigate to `http://localhost:4321` to see your project in action.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 📝 Contributing
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Contributions are welcome! Please follow these steps to contribute:
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Open a pull request.
 
-## 🚀 Project Structure
+## 📄 License
 
-Inside of your Astro project, you'll see the following folders and files:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 🙏 Acknowledgements
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- Thanks to the Astro team for creating an amazing framework.
+- Inspired by various open-source projects and contributors.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 📞 Contact
 
-Any static assets, like images, can be placed in the `public/` directory.
+If you have any questions or feedback, feel free to reach out:
 
-## 🧞 Commands
+- Email: endy.shima@gmail.com
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
